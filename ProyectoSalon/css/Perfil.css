@@ -15,10 +15,12 @@ body{
     font-family: "Ubuntu", helvetica;
     min-height: 100vh;
 }
+
+
 .contenedor{
 
     width: 800px;
-    margin: 50px auto;
+    margin: 100px auto;
     overflow: hidden;
     }
     
@@ -62,7 +64,8 @@ header nav ul li a{
 
 
 .main{
-    width: 300px;
+    
+    width: 250px;
     background: #fff;
     float: left;
 }
@@ -70,13 +73,19 @@ header nav ul li a{
 
     width:100%;
 }
+
+.Titulo{
+    background: #fff;
+}
 h2 {
     text-align: center;
     color: rgb(99, 202, 78);
     font-weight: 300;
     margin-bottom: 20px;
-    
-        
+}
+
+h2:hover{
+    color: #179677
 }
 .main .imagen img{
     width: 100%;
@@ -102,6 +111,7 @@ label {
 
 a {
 
+
 text-align: center;  
 text-decoration: none;
 color: #5bf3f8;
@@ -115,17 +125,30 @@ a:hover{
     color: #179677
 }
 
-.inf{
-    position: relative;
-    margin-bottom: 40px;
-   
+contenido{
+    display: inline-block;
 }
 
-.dat{
+.info{
     position: relative;
-    margin-bottom: 40px;
-   
+    width: 250px;
+    background: rgb(44, 102, 104);
+    float: left;
+    
 }
+ .dato{
+    position: relative;
+    width: 300px;
+    background: rgb(146, 129, 129);
+    float: left;
+
+ }
+ .editar{
+     width: 500px;
+     color: aliceblue;
+      text-align: center;
+   
+ }
 
 
 

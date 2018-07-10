@@ -9,7 +9,7 @@
 body {
      font-family: Arial, Sans-serif;
      font-size: 16px;
-     background: #c58298;
+     background: #772c45;
 
 }
 
@@ -37,16 +37,20 @@ input {
 input[type="submit"] {
     background: linear-gradient(rgb(177, 155, 84), rgb(216, 141, 100));
     border: 0;
-    color: brown;
+    color: rgb(87, 78, 78);
     opacity: 0.8;
     cursor: pointer;
     border-radius: 20px;
     margin-bottom: 0;
+    transition: all 1s ease;
 
 }
 
 input[type="submit"]:hover {
 opacity: 1;
+transform: scale(2,2);
+
+;
 }
 input[type="submit"]:active {
     transform: scale(0.95);
@@ -89,7 +93,7 @@ header nav ul li a{
 }
     
     header nav ul li a:hover {
-        background: rgb(112, 105, 173);
+        background: rgb(193, 190, 223);
         color: #fff;
     }
 
@@ -105,6 +109,12 @@ header nav ul li a{
     .main .imagen img{
         width: 100%;
         vertical-align: top;
+        transition: all 1s ease; 
+      
+    }
+    .main .imagen img:hover{
+        transform: rotate(360deg);
+      
     }
     .main .posts{
         padding: 41px;
